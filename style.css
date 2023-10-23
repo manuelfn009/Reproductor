@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Homenaje&family=Josefin+Sans&family=Mohave:wght@300&display=swap");
+html {
+  box-sizing: border-box;
+  font-family: 'Homenaje', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.player-container {
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  background-color:  #e6b309;
+  box-shadow: 0px 15px 30px 5px rgba(0, 0, 0, 0.3);
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0px 15px 30px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.img-container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: -50px;
+  left: 50px;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin: 5px 0 0;
+}
+
+/* Progress */
+.progress-container {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 40px 20px;
+  height: 4px;
+  width: 90%;
+}
+
+.progress {
+  background: black;
+  border-radius: 5px;
+  height: 100%;
+  /* change this to show progress */
+  width: 66%;
+  transition: width 0.1s linear;
+}
+
+.duration-wrapper {
+  position: relative;
+  top: -25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Controls */
+.player-controls {
+  position: relative;
+  top: -15px;
+  width: 400px;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.fa-solid {
+  font-size: 40px;
+  color: black;
+  margin-right: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.fa-solid:hover {
+  color: #6a5205;
+  cursor: pointer;
+  background-color: black;
+}
+.active{
+  color: #6a5205;
+  background-color: black;
+}
+
+/* Media Query: iPhone (Vertical) */
+@media screen and (max-width: 376px) {
+  .player-container {
+    width: 90vw;
+  }
+  .img-container {
+    left: 29px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .player-controls {
+    top: -10px;
+    left: 100px;
+  }
+}
+
+progress{
+  width: 300px;
+}
+
+.song-list{
+  background-color: #e6b309;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+a:hover{
+  background-color: black;
+  color: #e6b309;
+}
+
+li{
+  margin-top: 10px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RythmnMFN</title>
+    <link rel="icon" type="image/png" href="IMG/spotify.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/761c44b7a7.js" crossorigin="anonymous"></script><!--Botones-->
+    
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="player-container">
+        <div class="img-container">
+            <img src="IMG/un verano sin ti.png" alt="" />
+        </div>
+        <h2 id="title">Song Name</h2>
+        <h3 id="artist">Artist Name</h3>
+        <audio src="MUSIC/un verano sin ti.mp3"></audio>
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+                <span id="current-time">0:00</span>
+                <span id="duration">2:06</span>
+            </div>
+        </div>
+        <div class="player-controls">
+            <i id="shuffle" class="fa-solid fa-shuffle"></i>
+            <i id="prev" class="fa-solid fa-backward"></i>
+            <i id="play" class="fa-solid fa-play"></i>
+            <i id="next" class="fa-solid fa-forward"></i>
+            <i id="repeat" class="fa-solid fa-repeat"></i>
+        </div>
+    </div>
+    <div class="song-list">
+        <ul id="song-list">
+            <li><a href="#" data-index="0">Un verano sin ti - Bad Bunny</a></li>
+            <li><a href="#" data-index="1">Policía y ladrón (Remix) - Maka</a></li>
+            <li><a href="#" data-index="2">Fruto - Milo J</a></li>
+            <li><a href="#" data-index="3">Besos - Kidd Keo</a></li>
+            <li><a href="#" data-index="4">Kemba Walker - Eladio Carri&oacute;n, Bad Bunny</a></li>
+            <li><a href="#" data-index="5">ElMen2 - La Tankeria, El Yordy DK, Michel Boutic</a></li>
+            <li><a href="#" data-index="6">TELEFONO NUEVO - Bad Bunny, Luar La L</a></li>
+            <li><a href="#" data-index="7">El Mambo - Kiko Rivera</a></li>
+            <li><a href="#" data-index="8">Arena y Sal - Omar Montes, Saiko, Tunvao</a></li>
+          </ul>
+    </div>
+    <script src="script.js"></script> <!-- Script -->
+</body>
+
+</html>
