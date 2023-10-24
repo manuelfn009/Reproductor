@@ -82,11 +82,11 @@ h3 {
   position: relative;
   top: -15px;
   width: 400px;
+  margin-left: 20px;
   display: flex;
   place-items: center;
   justify-content: center;
 }
-
 .fa-solid {
   font-size: 40px;
   color: black;
@@ -99,11 +99,9 @@ h3 {
 .fa-solid:hover {
   color: #6a5205;
   cursor: pointer;
-  background-color: black;
 }
 .active{
   color: #6a5205;
-  background-color: black;
 }
 
 /* Media Query: iPhone (Vertical) */
@@ -147,13 +145,14 @@ a{
   text-decoration: none;
   color: black;
   font-size: 20px;
+  padding: 5px;
   border-radius: 10px;
-  padding: 10px;
 }
 a:hover{
   background-color: black;
   color: #e6b309;
 }
+
 
 li{
   margin-top: 10px;
