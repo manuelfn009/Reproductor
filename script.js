@@ -90,8 +90,8 @@ function loadSong(song) {
   title.textContent = song.displayName;
   artist.textContent = song.artist;
   duration.textContent = song.duration;
-  music.src = `music/${song.name}.mp3`;
-  img.src = `img/${song.name}.png`;
+  music.src = `./MUSIC/${song.name}.mp3`;
+  img.src = `./IMG/${song.name}.png`;
 }
 let songIndex = 0;
 loadSong(songs[songIndex]);
