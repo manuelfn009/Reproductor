@@ -16,7 +16,7 @@ const currentTime = document.getElementById("current-time");
 // Array of songs
 let songs = [
   {
-    name: "Un verano sin ti",
+    name: "un verano sin ti",
     displayName: "Un verano sin ti",
     artist: "Bad Bunny",
   },
